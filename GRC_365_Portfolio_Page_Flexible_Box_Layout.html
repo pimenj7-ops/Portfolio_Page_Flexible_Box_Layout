@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>GRC 365 Portfolio Page/Flexible Box Layout</title>
+<link><style>
+	body {
+		background: aliceblue;
+	} h1 {
+		font: 36pt/1.4em ;
+		text-align: center;
+		text-shadow: 2px 3px 6px lightgreen;
+		margin-top: 48px;
+	} #div1 {
+		width: 768px;
+		height: 768px;
+		border: 24px solid lightgreen;
+		background: white;
+		margin: 48px auto;
+		border-radius: 24px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: flex-start;
+	} .div2-4 {
+		width: 200px;
+		height: 200px;
+		background: orange;
+		margin: 24px auto;
+		border: 1px solid gray;
+		border-radius: 12px;
+		font: 72pt/1.4em ;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+	} .image {
+		width: 150px;
+	} figure {
+		// background: pink;
+		width: 150px;
+	} figcaption {
+		font: italic 12pt/1.4em Georgia;
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+		<h1>Selectors</h1>
+		<div id="div1">
+			<div class="div2-4">1</div> <div class="div2-4">2</div> <div class="div2-4">3</div>
+			<div class="div2-4">4</div> 
+			<div class="div2-4">5</div> 
+			<div class="div2-4">6</div>
+			<figure>
+			<a href="Beautiful Art Sketchbook.jpg" />
+				<img class="div2-4" src="Beautiful Art Sketchbook.jpg" /></a>
+			<figcaption>Beautiful Urban Sketchbook by My Modern Art </figcaption>
+			</figure>
+		</div>
+</body>	
+</html>
